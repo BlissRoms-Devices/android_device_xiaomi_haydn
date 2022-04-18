@@ -3,18 +3,24 @@
     "remote": "github",
     "repository": "PixelExperience-Devices/kernel_xiaomi_haydn",
     "target_path": "kernel/xiaomi/haydn",
-    "branch": "twelve"
+    "revision": "twelve"
   },
   {
     "remote": "BlissRoms-Devices",
     "repository": "vendor_xiaomi_haydn",
     "target_path": "vendor/xiaomi/haydn",
-    "branch": "arcadia"
+    "revision": "arcadia"
   },
   {
-    "remote": "BlissRoms-Devices",
-    "repository": "vendor_xiaomi_haydn-miuicamera",
+    "remote": "gitlab",
+    "repository": "AyanC1/vendor_xiaomi_haydn-miuicamera",
     "target_path": "vendor/xiaomi/haydn-miuicamera",
-    "branch": "arcadia"
+    "revision": "arcadia"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_vendor_qcom_opensource_healthd-ext",
+    "target_path": "vendor/qcom/opensource/healthd-ext",
+    "revision": "lineage-18.1"
   }
 ]
