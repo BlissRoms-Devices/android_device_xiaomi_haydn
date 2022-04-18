@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "github",
+    "repository": "PixelExperience-Devices/kernel_xiaomi_haydn",
+    "target_path": "kernel/xiaomi/haydn",
+    "branch": "twelve"
+  },
+  {
+    "remote": "BlissRoms-Devices",
+    "repository": "vendor_xiaomi_haydn",
+    "target_path": "vendor/xiaomi/haydn",
+    "branch": "arcadia"
+  },
+  {
+    "remote": "BlissRoms-Devices",
+    "repository": "vendor_xiaomi_haydn-miuicamera",
+    "target_path": "vendor/xiaomi/haydn-miuicamera",
+    "branch": "arcadia"
+  }
+]
