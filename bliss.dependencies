@@ -6,8 +6,8 @@
     "revision": "twelve"
   },
   {
-    "remote": "BlissRoms-Devices",
-    "repository": "vendor_xiaomi_haydn",
+    "remote": "gitlab",
+    "repository": "AyanC1/vendor_xiaomi_haydn",
     "target_path": "vendor/xiaomi/haydn",
     "revision": "arcadia"
   },
