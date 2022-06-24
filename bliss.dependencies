@@ -22,5 +22,12 @@
     "repository": "LineageOS/android_vendor_qcom_opensource_healthd-ext",
     "target_path": "vendor/qcom/opensource/healthd-ext",
     "revision": "lineage-18.1"
+  },
+  {
+   "remote": "gitlab",
+   "repository"  : "AyanC1/vendor_xiaomi_haydn-firmware",
+   "target_path" : "vendor/xiaomi/haydn-firmware",
+   "remote"      : "pixel-devices-blobs",
+   "branch"      : "arcadia"
   }
 ]
