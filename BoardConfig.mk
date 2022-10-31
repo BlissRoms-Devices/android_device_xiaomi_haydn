@@ -15,6 +15,9 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 include vendor/xiaomi/haydn/BoardConfigVendor.mk
 include vendor/xiaomi/haydn-firmware/BoardConfigVendor.mk
 
+# Inherit from proprietary files for miuicamera
+-include vendor/xiaomi/haydn-miuicamera/products/board.mk
+
 # A/B
 AB_OTA_UPDATER := true
 
@@ -188,6 +191,7 @@ VENDOR_SECURITY_PATCH := 2022-08-01
 
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
+include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
 
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
