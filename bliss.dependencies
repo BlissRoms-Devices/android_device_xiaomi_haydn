@@ -1,0 +1,34 @@
+[
+  {
+    "remote": "github",
+    "repository": "PixelExperience-Devices/kernel_xiaomi_haydn",
+    "target_path": "kernel/xiaomi/haydn",
+    "revision": "thirteen"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "AyanC1/vendor_xiaomi_haydn",
+    "target_path": "vendor/xiaomi/haydn",
+    "revision": "t"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "AyanC1/vendor_xiaomi_haydn-miuicamera",
+    "target_path": "vendor/xiaomi/haydn-miuicamera",
+    "revision": "t"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_vendor_qcom_opensource_healthd-ext",
+    "target_path": "vendor/qcom/opensource/healthd-ext",
+    "revision": "lineage-18.1"
+  },
+  {
+   "remote": "gitlab",
+   "repository"  : "AyanC1/vendor_xiaomi_haydn-firmware",
+   "target_path" : "vendor/xiaomi/haydn-firmware",
+   "revision"      : "t"
+  }
+]
+
+
