@@ -402,12 +402,14 @@ PRODUCT_ENFORCE_RRO_TARGETS += *
 # Overlays-RRO
 PRODUCT_PACKAGES += \
     CarrierConfigOverlay \
-    HaydnCNSettingsProvider \
+    HaydnCNSettingsProviderOverlay \
     HaydnCNWifiOverlay \
-    HaydnGLSettingsProvider \
+    HaydnGLSettingsProviderOverlay \
     HaydnGLWifiOverlay \
-    HaydnProSettingsProvider \
-    HaydnProWifiOverlay \
+    HaydnINSettingsProviderOverlay \
+    HaydnINWifiOverlay \
+    HaydnproCNSettingsProviderOverlay \
+    HaydnproCNWifiOverlay \
     WifiOverlay
 
 # Telephony
